@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-04-25T19:41:44.990Z",
+  "sourceRepo": "mdn/dom-examples",
+  "targetRepo": "mojobadshah/dom-examples",
+  "baseBranch": "main",
+  "branch": "groq-poly-refactor-dom-examples-2026-04-25t19-41-44-524z",
+  "summary": "polyrepo refactor plan with frontend staging demo",
+  "risk": "low",
+  "prompt": "Plan a safe polyrepo refactor. Prefer docs, demo, workflow, or minimal frontend staging changes. Always add a minimal frontend staging demo. Do not put secrets in files. Keep changes reviewable and reversible.",
+  "safeApplyMode": true,
+  "safeAiChangeRoot": "groq-bubble-safe-changes",
+  "changes": [
+    {
+      "originalPath": ".github/dependabot.yml",
+      "stagedPath": "groq-bubble-safe-changes/01-github-dependabot-yml.yml",
+      "action": "update",
+      "reason": "Prefer docs, demo, workflow, or minimal frontend staging changes."
+    },
+    {
+      "originalPath": ".github/workflows/pr-merge-conflicts.yml",
+      "stagedPath": "groq-bubble-safe-changes/02-github-workflows-pr-merge-conflicts-yml.yml",
+      "action": "update",
+      "reason": "Always preserve behavior and do not include secrets."
+    },
+    {
+      "originalPath": ".github/workflows/pr-merge-conflicts.yml",
+      "stagedPath": "groq-bubble-safe-changes/03-github-workflows-pr-merge-conflicts-yml.yml",
+      "action": "create",
+      "reason": "Always add a minimal frontend staging demo."
+    },
+    {
+      "originalPath": ".github/workflows/pr-merge-conflicts.yml",
+      "stagedPath": "groq-bubble-safe-changes/04-github-workflows-pr-merge-conflicts-yml.yml",
+      "action": "update",
+      "reason": "Always preserve behavior and do not include secrets."
+    },
+    {
+      "originalPath": "docs/staging/index.html",
+      "stagedPath": "groq-bubble-safe-changes/05-docs-staging-index-html.html",
+      "action": "create",
+      "reason": "Always add a minimal frontend staging demo."
+    },
+    {
+      "originalPath": "docs/staging/README.md",
+      "stagedPath": "groq-bubble-safe-changes/06-docs-staging-readme-md.md",
+      "action": "create",
+      "reason": "Always add a minimal frontend staging demo."
+    },
+    {
+      "originalPath": ".prettierrc.json",
+      "stagedPath": "groq-bubble-safe-changes/07-prettierrc-json.json",
+      "action": "update",
+      "reason": "Prefer docs, demo, workflow, or minimal frontend staging changes."
+    },
+    {
+      "originalPath": ".github/ISSUE_TEMPLATE/bug.yml",
+      "stagedPath": "groq-bubble-safe-changes/08-github-issue-template-bug-yml.yml",
+      "action": "update",
+      "reason": "Prefer docs, demo, workflow, or minimal frontend staging changes."
+    }
+  ],
+  "blockedChanges": []
+}
