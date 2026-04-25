@@ -1,0 +1,26 @@
+/*
+AI-GENERATED STAGED CHANGE
+Original requested path: .github/workflows/pr-merge-conflicts.yml
+Reason: Always preserve behavior and do not include secrets.
+This file was staged safely to avoid path conflicts or unsafe direct writes.
+Review before manually moving into the original target path.
+*/
+
+name: "Label PRs with conflicts"
+
+on:
+  push:
+  pull_request_target:
+    branches:
+      - main
+    types: [synchronize]
+
+permissions:
+  # Label pull requests.
+  pull-requests: write
+
+jobs:
+  label-merge-conflicts:
+    uses: mdn/workflows/.github/workflows/pr-rebase-needed.yml@main
+    with:
+      target-repo: "mdn/dom-examples"
