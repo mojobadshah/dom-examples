@@ -1,0 +1,11 @@
+{
+  "generatedAt": "2026-04-25T19:16:44.807Z",
+  "sourceRepo": "mdn/dom-examples",
+  "targetRepo": "mojobadshah/dom-examples",
+  "baseBranch": "main",
+  "branch": "groq-poly-refactor-dom-examples-2026-04-25t19-16-44-339z",
+  "summary": "Fallback safe staging plan for mdn/dom-examples",
+  "risk": "low",
+  "prompt": "Plan a safe polyrepo refactor. Prefer docs, demo, workflow, or minimal frontend staging changes. Always add a minimal frontend staging demo. Do not put secrets in files. Keep changes reviewable and reversible.",
+  "changes": []
+}
