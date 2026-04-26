@@ -1,0 +1,9 @@
+/*
+Model: llama-3.1-8b-instant
+Original desired path: .github/ISSUE_TEMPLATE/bug.yml
+Action: update
+Reason: Update template to include a clear call to action for resolving the issue
+Safe apply mode: proposed content only; not written to original path.
+*/
+
+# Update ISSUE_TEMPLATE to include clear call to action
