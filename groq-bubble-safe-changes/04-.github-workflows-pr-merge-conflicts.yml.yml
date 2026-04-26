@@ -1,0 +1,26 @@
+/*
+Model: llama-3.1-8b-instant
+Original desired path: .github/workflows/pr-merge-conflicts.yml
+Action: update
+Reason: Update workflow to include GitHub Discussions link
+Safe apply mode: proposed content only; not written to original path.
+*/
+
+# Update pr-merge-conflicts to include GitHub Discussions link
+name: "Label PRs with conflicts"
+on:
+  push:
+  pull_request_target:
+    branches:
+      - main
+    types: [synchronize]
+permissions:
+  # Label pull requests.
+  pull-requests: write
+jobs:
+  label-merge-conflicts:
+    uses: mdn/workflows/.github/workflows/pr-rebase-needed.yml@main
+    with:
+      target-repo: "mdn/dom-examples"
+secrets:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
