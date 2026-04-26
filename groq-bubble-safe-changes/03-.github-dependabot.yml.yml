@@ -1,0 +1,17 @@
+/*
+Model: llama-3.1-8b-instant
+Original desired path: .github/dependabot.yml
+Action: create
+Reason: Enable dependabot for GitHub Actions updates
+Safe apply mode: proposed content only; not written to original path.
+*/
+
+# Enable dependabot for GitHub Actions updates
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+schedule:
+  interval: weekly
+commit-message:
+  prefix: "ci(deps): "
