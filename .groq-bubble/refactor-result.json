@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-04-26T02:45:33.972Z",
+  "model": "llama-3.1-8b-instant",
+  "source": "mdn/dom-examples",
+  "target": "mojobadshah/dom-examples",
+  "baseBranch": "main",
+  "branch": "groq-poly-refactor-dom-examples-2026-04-26t02-45-33-313z",
+  "safeApplyMode": true,
+  "summary": "Safe polyrepo GitHub refactor for mdn/dom-examples",
+  "risk": "low",
+  "note": "Generated changes are stored in groq-bubble-safe-changes/* for safe review. Original source paths are not overwritten."
+}
