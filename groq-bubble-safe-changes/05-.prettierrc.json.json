@@ -1,0 +1,12 @@
+/*
+Model: llama-3.1-8b-instant
+Original desired path: .prettierrc.json
+Action: update
+Reason: Add bracketSameLine property to prettier config
+Safe apply mode: proposed content only; not written to original path.
+*/
+
+# Update prettierrc.json
+{
+  "bracketSameLine": true
+}
