@@ -1,0 +1,9 @@
+/*
+Model: llama-3.1-8b-instant
+Original desired path: .github/ISSUE_TEMPLATE/config.yml
+Action: update
+Reason: Add support for GitHub Discussions link
+Safe apply mode: proposed content only; not written to original path.
+*/
+
+# Add link to GitHub Discussions
